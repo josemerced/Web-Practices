@@ -157,9 +157,12 @@ body {
   font-size: 24px;
   font-family: Helvetica, Arial, sans-serif;
 }
-ul li{
+.sidebar ul li {
   list-style-type: square;
-  list-style-position: inside;
+  color:  white;
+}
+.sidebar2 ul li {
+  list-style-type: square;
   color:  white;
 }
 a {color: white;
