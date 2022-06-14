@@ -159,10 +159,12 @@ body {
 }
 ul li{
   list-style-type: square;
+  padding-right: 5px;
   color:  white;
-  text-decoration:none;
 }
-a {color: white;}
+a {color: white;
+  text-decoration:none;
+  }
 /*--------------FOOTER------------*/
 footer {
   background-color: skyblue;
