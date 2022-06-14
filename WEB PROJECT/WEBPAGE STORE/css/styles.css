@@ -157,14 +157,9 @@ body {
   font-size: 24px;
   font-family: Helvetica, Arial, sans-serif;
 }
-.enlaces ul {
-  list-style-position: inside;
-  padding-left: 5px;
-  list-style-type: square;
-  color:  red;
-}
-a {color: white;
+.enlaces a {color: white;
   text-decoration:none;
+  list-style-type: square;
   }
 /*--------------FOOTER------------*/
 footer {
