@@ -159,10 +159,12 @@ body {
 }
 .sidebar ul li {
   list-style-type: square;
+    list-style-position: outside;
   color:  white;
 }
 .sidebar2 ul li {
   list-style-type: square;
+    list-style-position: outside;
   color:  white;
 }
 a {color: white;
