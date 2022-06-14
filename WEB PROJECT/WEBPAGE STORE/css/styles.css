@@ -157,14 +157,8 @@ body {
   font-size: 24px;
   font-family: Helvetica, Arial, sans-serif;
 }
-.sidebar ul {
+.enlaces ul {
   list-style-type: square;
-    list-style-position: outside;
-  color:  white;
-}
-.sidebar2 ul {
-  list-style-type: square;
-    list-style-position: outside;
   color:  white;
 }
 a {color: white;
