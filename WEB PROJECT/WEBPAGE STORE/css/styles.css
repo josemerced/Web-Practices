@@ -157,7 +157,7 @@ body {
   font-size: 24px;
   font-family: Helvetica, Arial, sans-serif;
 }
-#maint-content ul li{
+ul li{
   list-style-type: square;
   color:  white;
   text-decoration:none;
