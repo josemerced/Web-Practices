@@ -159,7 +159,7 @@ body {
 }
 ul li{
   list-style-type: square;
-  padding-right: 5px;
+  list-style-position: inside;
   color:  white;
 }
 a {color: white;
