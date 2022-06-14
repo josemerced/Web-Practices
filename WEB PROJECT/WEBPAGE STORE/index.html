@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WebPage Store Test</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rancho&effect= outline'> <!--font-effect-outline-->
+</head>
+<body>
+	<header> 
+		<nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-sm visible-md visible-lg">
+            <div id="logo-img" alt="Logo image"></div>
+          <!-- imagen del logo -->
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>WebPage Store</h1></a>
+            <p>
+              <span>&copy; Just for educational purpose</span>
+            </p>
+          </div>
+  <!------Toogle Bar------->
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index.html">
+                <ion-icon name="home-sharp"></ion-icon> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <ion-icon name="mail-outline"></ion-icon><br class="hidden-xs"> Email</a>
+            </li>
+            <li>
+              <a href="#">
+                <ion-icon name="help-circle"></ion-icon><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="https://github.com/josemerced" target="_blank">
+                <ion-icon name="logo-github"></ion-icon><br class="hidden-xs"> Github</a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+	</header>
+<!--- Main Body --->
+<div id="main-content" class="grid-container">
+	  <div class="Main_body">
+      <div class="box1 font-effect-outline">Item</div>
+	  	<div class="grid-d">
+	  		  <div id="box2" class="box-grid"><a href=""><img src="images/concept art/liger zero.jpg" alt="image1"></a>
+          <span class="">Concept Art</span></div>
+	  		  <div id="box3" class="box-grid"><a href=""><img src="images/model kits/hmm shadow fox.jpg" alt="image2"></a>
+          <span class="">Model Kits</span></div>
+	  		  <div id="box4" class="box-grid"><a href=""><img src="images/box art/box storm.jpg"></a>
+          <span class="">Box Art</span></div>
+	  		  <div id="box5" class="box-grid"><a href=""><img src="images/dvd/CD-DVD.jpg"></a>
+          <span class="">CD/DVDs</span></div>
+	  	</div>
+	  </div>
+	  <div class="sidebar">
+      <span class="font-effect-outline">Catalog</span>
+        <div><ul class=enlances>
+          <li><a href="">Mecha</a></li>
+          <li><a href="">Figma</a></li>
+          <li><a href="">Merchandising</a></li>
+        </ul></div></div>
+    <div class="sidebar2">
+      <span class=" font-effect-outline">Miscelaneous</span>
+        <div><ul class=enlances>
+          <li><a href="">History</a></li>
+          <li><a href="">Purchase</a></li>
+        </ul></div></div>
+</div>
+
+<footer>
+	
+</footer>
+<!-- External source from ION ICONS web page -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+ <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
