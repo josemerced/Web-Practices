@@ -157,6 +157,8 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 .enlaces ul {
+  list-style-position: inside;
+  margin-left: 5px;
   list-style-type: square;
   color:  white;
 }
