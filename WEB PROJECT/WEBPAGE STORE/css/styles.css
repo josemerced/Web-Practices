@@ -195,7 +195,7 @@ textarea {
     display: inline-block;
     float: left;
     height: 48px;
-    background: url('../images/user-icon.jpg') no-repeat center center;
+    background: url('../images/user-icon.jpg') no-repeat;
 }
 
 /*-----BOTONES-----*/
