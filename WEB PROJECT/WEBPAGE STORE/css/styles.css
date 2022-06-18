@@ -121,7 +121,6 @@ body {
   opacity: .8;
 }
 
-/*---BOX SIDEBAR---*/
 .box1 {
   background-color: deepskyblue;
   border: 5px;
@@ -129,20 +128,18 @@ body {
   text-align: center;
 }
 
+/*---BOX SIDEBAR---*/
 .sidebar>span, .sidebar2>span {
   background-color: deepskyblue;
   border: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-}
-.sidebar>span, .sidebar2>span {
-  border-radius: 10px;
   border: 1px solid rgba(0, 0, 0, 0.8);
-  font-size: 30px;
-  text-align: center;
+  font-size: 28px;
 }
+
 .sidebar {
   grid-area: sidebar;
 }
@@ -152,15 +149,21 @@ body {
 .sidebar, .sidebar2 {
   background-color: skyblue;
   border-radius: 10px;
-  height: 150px;
-  font-size: 24px;
+  height: 50px;
+  font-size: 28px;
   font-family: Helvetica, Arial, sans-serif;
 }
-.enlaces ul {
+.enlaces ul li {
   list-style-position: inside;
   margin-left: 5px;
   list-style-type: square;
   color:  white;
+  font-size: 20px;
+}
+.enlaces {
+  background-color: skyblue;
+  border-radius: 10px;
+  padding-bottom: 2px;
 }
 a {color: white;
   text-decoration:none;
@@ -171,6 +174,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   height: auto;
   color: black;
+  margin-top: 3rem;
 }
 .footer-container{
   padding: 10px 40px 20px 40px;
@@ -179,8 +183,8 @@ footer {
   margin-bottom: 15px;
 }
 textarea {
-    height: 40px;
-    width: 350px;
+    height: 50px;
+    width: 400px;
     border: none;
     border-bottom: 2px solid gray;
     resize: none;
@@ -222,6 +226,12 @@ button {
 
 /*--------END FOOTER--------*/
 
+@media (min-width: 768px) and (max-width: 1000px) {
+  .sidebar ul li:last-child {
+      font-size: 2.2vh;
+    }
+}
+
 /********** mediun devices only **********/
 @media (min-width: 768px) {
   /* Header */
@@ -241,6 +251,10 @@ button {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }}
+
+.sidebar>span, .sidebar2>span {
+  font-size: 3vh;
+}
 
 /********** small devices only **********/
 @media (max-width: 767px)  {
@@ -275,8 +289,33 @@ button {
   .box-grid {
   height: 200px;
 }
+.grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "Main_body Main_body"
+    "sidebar sidebar2";
+}
+.sidebar {
+  margin: 1rem 1rem 5rem 1rem;
+  display: block;
+}
+.sidebar2 {
+  margin: 1rem 1rem 5rem 1rem;
+  display: block;
+}
+footer {
+  margin-top: 5rem;
+}
+textarea {
+    height: 40px;
+    width: 300px;
+}
 /********** Extra small devices only **********/
 @media (max-width: 450px) {
   .box-grid {
   height: 150px;
-}}
+}
+textarea {
+    height: 30px;
+    width: 200px;
+}
+}
