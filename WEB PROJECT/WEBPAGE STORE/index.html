@@ -40,11 +40,11 @@
                 <ion-icon name="home-sharp"></ion-icon> Home</a>
             </li>
             <li id="navMenuButton">
-              <a href="#" onclick="$dc.loadMenuCategories();">
+              <a href="#/" onclick="$dc.loadMenuCategories();">
                 <ion-icon name="mail-outline"></ion-icon><br class="hidden-xs"> Email</a>
             </li>
             <li>
-              <a href="#">
+              <a href="#/">
                 <ion-icon name="help-circle"></ion-icon><br class="hidden-xs"> About</a>
             </li>
             <li>
@@ -74,15 +74,15 @@
 	  <div class="sidebar">
       <span class="font-effect-outline">Catalog</span>
         <div  class=enlaces><ul>
-          <li><a href="">Mecha</a></li>
-          <li><a href="">Figma</a></li>
-          <li><a href="">Merchandising</a></li>
+          <li><a href="#/">Mecha</a></li>
+          <li><a href="#/">Figma</a></li>
+          <li><a href="#/">Merchandising</a></li>
         </ul></div></div>
     <div class="sidebar2">
       <span class=" font-effect-outline">Miscelaneous</span>
         <div class=enlaces><ul>
-          <li><a href="">History</a></li>
-          <li><a href="">Purchase</a></li>
+          <li><a href="#/">History</a></li>
+          <li><a href="#/">Purchase</a></li>
         </ul></div></div>
 </div>
 
@@ -91,10 +91,10 @@
     <h2>Leave us a Comment</h2>
     <form>
       <textarea placeholder='Add Your Comment'></textarea>
-        <span class="user-icon">&nbsp;</span>
+        <span id="user-icon">&nbsp;</span>
         <div class="Botones">
         <input type="submit" value='Submit'>
-          <button id='clear' href='#'>Cancel</button>
+          <button id='clear' href='#/'>Cancel</button>
         </div>
     </form>
     <div id="comments"></div>
