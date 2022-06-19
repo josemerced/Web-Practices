@@ -192,14 +192,14 @@ textarea {
     transition: .5s
 }
 /*----IMAGEN----*/
-#user-icon {
+#usuario {
     border-radius: 30px;
     margin-right: 10px;
     width: 70px;
     display: inline-block;
     float: left;
     height: 48px;
-    background: url('../images/user-icon.JPG') no-repeat;
+    background: url('../images/usuario.JPG') no-repeat;
 }
 
 /*-----BOTONES-----*/
