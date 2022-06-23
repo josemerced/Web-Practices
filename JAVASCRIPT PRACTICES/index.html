@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Alert practices</title>
+	<!-- Amazing Guy from https://sweetalert2.github.io/ -->
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="jquery-3.6.0.min.js"></script>
+</head>
+<style>
+	body{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+
+	}
+	h1 {
+		margin: 40px;
+		font-weight: bold;
+	}
+
+	.b1 {
+		position: absolute;
+		left: 45%;
+		top: 50%;
+	}
+	span {color:  white;
+		font-weight: bold;
+	}
+</style>
+<body>
+	<h1>Custom Alert Message</h1>
+	<button id="click" class="b1">Hit me~!</button>
+	<script>
+		$('#click').on('click',function(){
+			Swal.fire({
+				title: '<span>Alert</span>',
+				text:"This feature is not settled yet",
+				background: 'rgba(0,0,0, 0.8)',
+				width: '100%',
+				imageUrl:'/Frustrated Icon.png',
+				imageWidth: 200,
+				imageHeight: 200,
+				imageAlt: 'Custom image',
+				confirmButtonText:'<span>Understood</span>',
+				})}
+		)
+	</script>
+</body>
+</html>
