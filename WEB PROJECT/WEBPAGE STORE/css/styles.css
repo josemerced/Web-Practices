@@ -63,6 +63,12 @@ ion-icon {
 }
 /*--------------END HEADER ----------------*/
 
+/*----Alert Message----*/
+.title-class { 
+  font-size: 30px;
+  color: white;
+}
+
 /*------------ BODY -------------*/
 body {
   color: #fff;
@@ -70,6 +76,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
 }
+
 .grid-container {
   width: 100%;
   display: grid;
@@ -176,6 +183,7 @@ footer {
   color: black;
   margin-top: 3rem;
 }
+
 .footer-container{
   padding: 10px 40px 20px 40px;
 }

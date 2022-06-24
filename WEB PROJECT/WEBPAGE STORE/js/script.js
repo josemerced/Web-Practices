@@ -29,7 +29,7 @@ field.onblur = function(){
     this.style.borderColor = '#aaa'
 }
 
-// --PARA BOTON CANCEL-- //
+// --PARA BOTONES-- //
 $('#clear').click(function(e) {
     // Special stuff to do when this link is clicked...
     // Cancel the default action
@@ -37,4 +37,50 @@ $('#clear').click(function(e) {
     botones.style.display = 'none';
     field.value = '';
 });
+
+$('#bemail').click(function(){
+  Swal.fire({
+    title: 'Alert',
+    text:"This feature is not settled yet",
+    background: 'rgba(0,0,0, 0.8)',
+    width: '70%',
+    imageUrl:'https://cdn0.iconfinder.com/data/icons/raccoon-emoticons/512/Dead-Emoji-Emotion-Face-Expression-Feeling_2-1024.png',
+    imageWidth: 150,
+    imageHeight: 150,
+    imageAlt: 'Custom image',
+    confirmButtonText:'Understood',
+    customClass: {title: 'title-class',}
+    })}
+)
+
+$('#babout').click(function(){
+  Swal.fire({
+    title: 'On Working, but stuck',
+    text:"Later I will think for it",
+    background: 'rgba(0,0,0, 0.8)',
+    width: '70%',
+    imageUrl:'https://cdn0.iconfinder.com/data/icons/raccoon-emoticons/512/Dead-Emoji-Emotion-Face-Expression-Feeling_2-1024.png',
+    imageWidth: 150,
+    imageHeight: 150,
+    imageAlt: 'Custom image',
+    confirmButtonText:'Ok...',
+    customClass: {title: 'title-class',}
+    })}
+)
+
+$('#btsubmit').click(function(){
+  Swal.fire({
+    title: 'Alert',
+    text:"This feature is not settled yet",
+    background: 'rgba(0,0,0, 0.8)',
+    width: '70%',
+    imageUrl:'https://cdn0.iconfinder.com/data/icons/raccoon-emoticons/512/Dead-Emoji-Emotion-Face-Expression-Feeling_2-1024.png',
+    imageWidth: 150,
+    imageHeight: 150,
+    imageAlt: 'Custom image',
+    confirmButtonText:'Understood',
+    customClass: {title: 'title-class',}
+    })}
+)
+
 
