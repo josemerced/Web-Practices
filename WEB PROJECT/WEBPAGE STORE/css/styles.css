@@ -64,8 +64,8 @@ ion-icon {
 /*--------------END HEADER ----------------*/
 
 /*----Alert Message----*/
-.title-class { 
-  font-size: 30px;
+span { 
+  font-size: 36px;
   color: white;
 }
 

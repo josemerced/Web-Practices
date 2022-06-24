@@ -40,7 +40,7 @@ $('#clear').click(function(e) {
 
 $('#bemail').click(function(){
   Swal.fire({
-    title: 'Alert',
+    title: '<span>Alert</span>',
     text:"This feature is not settled yet",
     background: 'rgba(0,0,0, 0.8)',
     width: '70%',
@@ -49,7 +49,7 @@ $('#bemail').click(function(){
     imageHeight: 150,
     imageAlt: 'Custom image',
     confirmButtonText:'Understood',
-    customClass: {title: 'title-class',}
+      customClass: {title: 'title-class',}
     })}
 )
 
@@ -69,7 +69,7 @@ $('#babout').click(function(){
 
 $('#btsubmit').click(function(){
   Swal.fire({
-    title: 'Alert',
+    title: '<span>Alert</span>',
     text:"This feature is not settled yet",
     background: 'rgba(0,0,0, 0.8)',
     width: '70%',
