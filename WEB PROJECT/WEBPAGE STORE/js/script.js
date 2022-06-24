@@ -57,7 +57,6 @@ $('#babout').click(function(){
   Swal.fire({
     title: 'On Working, but stuck',
     text:"Later I will think for it",
-    background: 'rgba(0,0,0, 0.8)',
     width: '70%',
     imageUrl:'https://cdn0.iconfinder.com/data/icons/raccoon-emoticons/512/Dead-Emoji-Emotion-Face-Expression-Feeling_2-1024.png',
     imageWidth: 150,
